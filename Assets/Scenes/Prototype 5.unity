@@ -523,6 +523,7 @@ GameObject:
   - component: {fileID: 176144576}
   - component: {fileID: 176144575}
   - component: {fileID: 176144578}
+  - component: {fileID: 176144579}
   m_Layer: 5
   m_Name: Hard Button
   m_TagString: Untagged
@@ -645,6 +646,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b8330eaa841d4bc1976385877f76e87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  difficulty: 3
+--- !u!114 &176144579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176144573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8330eaa841d4bc1976385877f76e87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  difficulty: 3
 --- !u!1 &228433336
 GameObject:
   m_ObjectHideFlags: 0
@@ -1370,6 +1385,7 @@ GameObject:
   - component: {fileID: 1065339995}
   - component: {fileID: 1065339994}
   - component: {fileID: 1065339997}
+  - component: {fileID: 1065339998}
   m_Layer: 5
   m_Name: Medium Button
   m_TagString: Untagged
@@ -1492,6 +1508,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b8330eaa841d4bc1976385877f76e87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  difficulty: 2
+--- !u!114 &1065339998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065339992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8330eaa841d4bc1976385877f76e87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  difficulty: 2
 --- !u!1 &1134106546
 GameObject:
   m_ObjectHideFlags: 0
@@ -1627,6 +1657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b8330eaa841d4bc1976385877f76e87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  difficulty: 1
 --- !u!1 &1215281882
 GameObject:
   m_ObjectHideFlags: 0
